@@ -1,5 +1,14 @@
 body {
-    background-image: url(/MovieLife-/Assets/img/abstract-futuristic-gaming-background-for-offline-twitch-stream-vector.jpg);
+    background-image: url(/Assets/img/abstract-futuristic-gaming-background-for-offline-twitch-stream-vector.jpg);
     background-size: cover;
     background-repeat: no-repeat;
+}
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.card {
+    background-color: black;
+    opacity: 0.5;
 }
