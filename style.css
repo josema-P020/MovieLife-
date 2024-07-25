@@ -12,3 +12,7 @@ body {
     background-color: black;
     opacity: 0.5;
 }
+
+.btn {
+    background-color: blueviolet;
+}

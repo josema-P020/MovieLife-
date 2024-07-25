@@ -14,38 +14,54 @@
     </header>
     <main>
       <section class="container">
-        <div class="card col-8">
-            <div class="card-body">
-                <div class="containerformcontacto mt-5">
-                    <div class="form-floating mb-3 ms-5 me-5">
-                              <input type="email" class="form-control" id="floatingInput" placeholder="name@example.com" required>
-                              <label for="floatingInput">Ingresa tu email</label>
-                              <div class="invalid-feedback">Por favor ingresa tu email</div>
+
+      
+            <div class="card col-sm-3 col-md-5 col-lg-8">
+              <form class="needs-validation">
+                <div class="card-body">
+                  <div class="containerformcontacto mt-3">
+                    <div>
+                      <h1 style="color: blanchedalmond; text-align: center;">Contactanos</h1>
+                    </div>
+                      <div class="card-body">
+
+                      <div class="form-floating mb-3 mt-4 ms-sm-1 me-sm-1 ms-md-1 me-md-1 me-lg-5 ms-lg-5 needs-validation ">
+                                <input type="email" class="form-control" id="floatingInput" placeholder="name@example.com" required>
+                                <label for="floatingInput">Ingresa tu email</label>
+                                <div class="invalid-feedback">Por favor ingresa tu email</div>
+                              </div>
+                              <div class="form-floating mb-3 ms-sm-1 me-sm-1 ms-md-1 me-md-1 me-lg-5 ms-lg-5 needs-validation">
+                                <select class="form-select" id="floatingSelect" aria-label="Floating label disabled select example" required>
+                                  <option selected>Opciones</option>
+                                  <option value="1">Suscribirme</option>
+                                  <option value="2">Cambiar mi plan</option>
+                                  <option value="3">Cambiar mi forma de pago</option>
+                                  <option value="1">Promociones</option>
+                                  <option value="2">Soporte Tecnico</option>
+                                  <option value="3">Sugerencias</option>
+                                  <option value="1">Otro</option>
+                                </select>
+                                <label for="floatingSelect">Selecciona el tema de tu consulta</label>
+                              </div>
+                              <div class="form-floating mb-3 ms-sm-1 me-sm-1 ms-md-1 me-md-1 me-lg-5 ms-lg-5 needs-validation">
+                                <textarea class="form-control" placeholder="Leave a comment here" id="floatingTextarea2" style="height: 100px" minlength="10" maxlength="5000" required ></textarea>
+                                <label for="floatingTextarea2">Dejanos tu consulta</label>
+                                <div class="invalid-feedback">Por favor ingresa tu comentario</div>
+                              </div>
                             </div>
-                            <div class="form-floating mb-3 ms-5 me-5">
-                              <select class="form-select" id="floatingSelect" aria-label="Floating label disabled select example" >
-                                <option selected>Opciones</option>
-                                <option value="1">Suscribirme</option>
-                                <option value="2">Cambiar mi plan</option>
-                                <option value="3">Cambiar mi forma de pago</option>
-                                <option value="1">Promociones</option>
-                                <option value="2">Soporte Tecnico</option>
-                                <option value="3">Sugerencias</option>
-                                <option value="1">Otro</option>
-                              </select>
-                              <label for="floatingSelect">Selecciona el tema de tu consulta</label>
-                            </div>
-                            <div class="form-floating mb-3 ms-5 me-5">
-                              <textarea class="form-control" placeholder="Leave a comment here" id="floatingTextarea2" style="height: 100px" ></textarea>
-                              <label for="floatingTextarea2">Dejanos tu consulta</label>
-                            </div>
-                          </div>
-             
+              </div>
+              <div class="d-grid gap-2 col-6 mx-auto mb-4">
+                <button class="btn" type="submit" value="Enviar">Enviar</button>
+                <button class="btn" type="reset">Borrar</button>
+              </div>
             </div>
-          </div>
 
 
-    </section>
+              </form>
+      
+
+
+        </section>
       
     
     </main>
