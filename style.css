@@ -1,18 +1,31 @@
 body {
-    background-image: url(/Assets/img/abstract-futuristic-gaming-background-for-offline-twitch-stream-vector.jpg);
-    background-size: cover;
-    background-repeat: no-repeat;
+    background-image: linear-gradient(90deg,#000000,#270e5e,#411a94, #572ab9);
 }
 .container {
     display: flex;
     justify-content: center;
     align-items: center;
 }
+.row {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
 .card {
-    background-color: black;
-    opacity: 0.5;
+    background-color: #270e5e;
+    opacity: 0,7;
+    
 }
 
 .btn {
     background-color: blueviolet;
+}
+.row:hover .card2 {
+    filter: blur(5px);
+    transform: scale(.8);
+    transition: 500ms;
+ }
+.card2:hover {
+    filter: blur(0) !important;
+    transform: scale(1) !important;
 }
