@@ -1,3 +1,4 @@
+header
 @import url('https://fonts.googleapis.com/css2?family=Bona+Nova+SC:wght@700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Hammersmith+One&display=swap');
 
@@ -37,4 +38,12 @@ body{
   font-family: "Hammersmith One", sans-serif;
   font-weight: 400;
   font-style: normal;
+
+.lista {
+    list-style: none;
+    padding: 0;
+  }
+  
+footer {
+    background-color: rgb(47, 15, 61);
 }
