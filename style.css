@@ -1,12 +1,17 @@
 
-@import url('https://fonts.googleapis.com/css2?family=Bona+Nova+SC:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
 
 /*
-.bona-nova-sc-bold {
-  font-family: "Bona Nova SC", serif;
-  font-weight: 700;
-  font-style: normal;
-}*/
+ .bebas-neue-regular {
+
+    font-family: "Bebas Neue", sans-serif;
+
+    font-weight: 400;
+
+    font-style: normal;
+
+  }  
+*/
 
 .lista {
     list-style: none;
@@ -17,7 +22,8 @@ footer {
     background-color: rgb(25, 9, 32);
 }
 .fuenteLogo {
-  font-family: "Bona Nova SC", serif;
-  font-weight: 700;
-  font-size: 45px
+  font-family: "Bebas Neue", sans-serif;
+  font-weight: 400;
+  font-size: 45px;
+  font-style: normal;
 }
