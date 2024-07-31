@@ -1,4 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bona+Nova+SC:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Hammersmith+One&display=swap');
 
 /*
  .bebas-neue-regular {
@@ -8,12 +10,15 @@
     font-weight: 400;
 
     font-style: normal;
-
+git add
   }  
 */
-
-@import url('https://fonts.googleapis.com/css2?family=Bona+Nova+SC:wght@700&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Hammersmith+One&display=swap');
+.fuenteLogo {
+  font-family: "Bebas Neue", sans-serif;
+  font-weight: 400;
+  font-size: 45px;
+  
+}
 
 /*
 .bona-nova-sc-bold {
@@ -24,11 +29,6 @@
 .barra {
     background-image: linear-gradient(90deg,#000000,#0c051d,#1a0a3d, #280f5efa); 
 }
-.fuente {
-    font-family: "Bona Nova SC", serif;
-    font-style: normal;
-}
-
 @media screen and (min-width:1618px){
  .ordenar{
   display: flex;
@@ -58,11 +58,8 @@ body{
   }
   
 footer {
-    background-color: rgb(25, 9, 32);
-}
-.fuenteLogo {
-  font-family: "Bebas Neue", sans-serif;
-  font-weight: 400;
-  font-size: 45px;
-  font-style: normal;
-}
+    background-color: rgb(3, 3, 3);
+};
+
+
+
