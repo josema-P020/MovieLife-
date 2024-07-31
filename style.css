@@ -48,3 +48,6 @@ body {
     transform: scale(1) !important;
 }
 
+.bg-imput {
+    background-color: #7735e1;
+}
