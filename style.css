@@ -1,4 +1,19 @@
-header
+
+
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+/*
+ .bebas-neue-regular {
+
+    font-family: "Bebas Neue", sans-serif;
+
+    font-weight: 400;
+
+    font-style: normal;
+
+  }  
+*/
+
 @import url('https://fonts.googleapis.com/css2?family=Bona+Nova+SC:wght@700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Hammersmith+One&display=swap');
 
@@ -45,5 +60,11 @@ body{
   }
   
 footer {
-    background-color: rgb(47, 15, 61);
+    background-color: rgb(25, 9, 32);
+}
+.fuenteLogo {
+  font-family: "Bebas Neue", sans-serif;
+  font-weight: 400;
+  font-size: 45px;
+  font-style: normal;
 }
