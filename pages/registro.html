@@ -15,30 +15,62 @@
       rel="stylesheet"
       href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css"
     />
-    <link rel="icon" href="/assets/file.png" type="image/x-icon">
+    <link rel="icon" href="/assets//assets/file.png" type="image/x-icon">
 
     <title>MovieLife+</title>
   </head>
   <body>
     <header>
-      <nav class="navbar">
+      <nav class="navbar" style="height: 20px;">
         <form class="container-fluid justify-content-end">
-          <button class="btn-nav" type="button">Registrarse</button>
-          <button class="btn-nav" type="button">Ver Catálogo</button>
+          <button type="button" class="btn btn-primary me-3" data-bs-toggle="modal" data-bs-target="#exampleModal">
+  Iniciar sesión
+</button>
+<div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h1 class="modal-title fs-5" id="exampleModalLabel">Iniciar sesión</h1>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        <form>
+          <div class="mb-3">
+            <label for="exampleInputEmail1" class="form-label">Email</label>
+            <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+            <div id="emailHelp" class="form-text">Recuerda no compartir nunca tu informacion</div>
+          </div>
+          <div class="mb-3">
+            <label for="exampleInputPassword1" class="form-label">Contraseña</label>
+            <input type="password" class="form-control" id="exampleInputPassword1">
+          </div>
+          <div class="mb-3 form-check">
+            <input type="checkbox" class="form-check-input" id="exampleCheck1">
+            <label class="form-check-label" for="exampleCheck1">Recordar Contraseña</label>
+          </div>
+        </form>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-primary">Ingresar</button>
+      </div>
+    </div>
+  </div>
+</div>
+
         </form>
       </nav>
     </header>
     <main>
       <section class="contenedor">
-        <div class="row text-center d-flex m-5">
-          <div class="col-md-12 col-sm-12">
-            <img class="img-logo" src="/assets/file.png" alt="" width="400" />
+        <div class="row text-center d-flex m-5 ">
+          <div class="col-md-12 col-sm-12 p-0">
+            <img class="img-logo img-fluid mt-5" src="/assets/file.png" alt="" width="400" />
             <h1 class="text-white">MovieLife+</h1>
             <h3 class="text-white">
               El lugar donde vas a encontrar todas tus series y peliculas
               preferidas
             </h3>
-            <h6 class="text-white text-center">
+            <h6 class="text-white text-center mb-4">
               MovieLife+ Premium: Acceso completo a todas las películas y
               series, contenido exclusivo, eventos especiales y 4K Ultra HD;
               MovieLife+ Plus: Incluye la biblioteca estándar y contenido
@@ -50,12 +82,13 @@
             </span>
           </div>
         </div>
+
       </section>
-      <section class="m-5 row d-flex justify-content-around" id="planes">
-        <div class="card m-3 col-lg-4" style="width: 18rem">
+      <section class="m-0 row d-flex justify-content-around mt-5"  id="planes">
+        <div class="card m-3 col-lg-4 col-md-12" style="width: 18rem">
           <img src="/assets/file.png" class="card-img-top" alt="" />
           <div class="card-body cursor">
-            <h4 class="card-title text-white">MovieLife+ Premium</h4>
+            <h4 class="card-title text-white text-center">MovieLife+ Premium</h4>
             <ul class="text-white">
                   <li>
                     Acceso completo a nuestra biblioteca de películas y series.
@@ -68,10 +101,10 @@
             <h4 class="text-white text-center"><i class="bi bi-currency-dollar">ARS 7000/MES</i></h4>
           </div>
         </div>
-        <div class="card m-3 col-lg-4" style="width: 18rem">
+        <div class="card m-3 col-lg-4 col-md-12" style="width: 18rem">
           <img src="/assets/file.png" class="card-img-top" alt="" />
           <div class="card-body">
-            <h4 class="card-title text-white">MovieLife+ Plus</h4>
+            <h4 class="card-title text-white text-center">MovieLife+ Plus</h4>
             <ul class="text-white">
               <li><i>Experimenta el siguiente nivel de entretenimiento.</i></li>
               <li>
@@ -83,10 +116,10 @@
             <h4 class="text-white text-center"><i class="bi bi-currency-dollar">ARS 5000/MES</i></h4>
           </div>
         </div>
-        <div class="card m-3 col-lg-4" style="width: 18rem">
+        <div class="card m-3 col-lg-4 col-md-12" style="width: 18rem">
           <img src="/assets/file.png" class="card-img-top" alt="" />
           <div class="card-body">
-            <h4 class="card-title text-white">MovieLife+ Basic</h4>
+            <h4 class="card-title text-white text-center">MovieLife+ Basic</h4>
             <ul class="text-white">
               <li>Acceso a la colección estándar de películas y series.</li>
               <li>Excelente selección de títulos para horas de disfrute.</li>
@@ -95,7 +128,7 @@
             <h4 class="text-white text-center"><i class="bi bi-currency-dollar">ARS 2000/MES</i></a></h4>
           </div>
         </div>
-        <section class="accordion mt-4">
+        <section class="accordion mt-5">
           <h2 class="text-white text-center mt-2">Preguntas frecuentes</h2>
           <div class="accordion" id="accordionExample">
             <div class="accordion-item">
