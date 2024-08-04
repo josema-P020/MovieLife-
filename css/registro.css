@@ -1,0 +1,120 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap'); 
+body{
+    background-image: linear-gradient(90deg,#000000,#270e5e,#411a94, #572ab9);
+}
+header{
+    background: rgba(199, 27, 130, 0);
+}
+.btn-nav{
+    margin: 5px;
+    width: 140px;
+    height: 40px;
+    border-radius: 15px;
+    background-color: #ffffff;
+    border: #7735e1;
+    color: #780dc0;
+}
+.btn-nav:hover{
+    transition: 0.3s ease;
+    color: #ffffff;
+    background-color: #411a94;
+    border: #ffffff solid 2px;
+}
+.contenedor{
+    height: 800px;
+    background-image: url(/assets/imagenfondo.jpg);
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.m-2{
+    border-radius: 20px;
+    cursor: pointer;
+    box-shadow: 0 0 8px black;
+}
+
+.detallesplanes{
+    margin: 50px;
+    width: 180px;
+    height: 60px;
+    border-radius: 15px;
+    background-color: #ffffff;
+    border: #7735e1;
+    color: #780dc0;
+    padding: 6px;
+    text-decoration: none;
+}
+.textocarta{
+    font-size: small;
+    color: white;
+}
+.card{
+    background: linear-gradient(135deg, rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0));
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    border-radius: 20px;
+    border:1px solid rgba(255, 255, 255, 0.18);
+    box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37);
+    transition:transform 0.8s ease, color 0.8s ease;
+    cursor: pointer;
+} 
+.card:hover{
+    transition: 0.8s ease;
+    transform: scale(1.05);
+    color: #780dc0
+}
+#pulsador{
+    text-align: center;
+    width: 200px;
+    height: 20px;
+    color: #000000;
+    background-color: #b492f8;
+    border-radius: 10%; 
+    font-size: 10;
+    padding: 5px;
+    border: rgb(14, 3, 18) solid;
+}
+
+.planes{
+    border: #ffffff solid 1px;
+    color: #ffffff;
+    text-decoration: none;
+    border-radius: 20px;
+    padding: 4px;
+
+}
+.accordion{
+    border-radius: 20px;
+    background: linear-gradient(135deg, rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0));
+}
+.accordion-button {
+    color: white;
+    background: transparent;
+    box-shadow: none;
+  }
+  .accordion-button:focus{
+    box-shadow: none;
+    background: none;
+    color: white;
+  }
+  .accordion-item {
+    background: linear-gradient(135deg, rgba(0, 0, 0, 0.1), rgba(255, 255, 255, 0));
+    border: none;
+  }
+  .accordion-body {
+    background: transparent;
+    color: rgb(255, 255, 255);
+  }
+.formulario{
+    width: 450px;
+    border: black 2px solid;
+    border-radius: 25px;
+    padding: 25px;
+    transition: 500ms;
+}
+.formulario:hover{
+    transform: scale(1.05);
+}
