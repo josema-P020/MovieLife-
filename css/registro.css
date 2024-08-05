@@ -39,13 +39,8 @@ header{
     background-attachment: fixed;
     justify-content: center;
     align-items: center;
-    
 }
-.m-2{
-    border-radius: 20px;
-    cursor: pointer;
-    box-shadow: 0 0 8px black;
-}
+
 
 .detallesplanes{
     margin: 50px;
@@ -62,7 +57,7 @@ header{
     font-size: small;
     color: rgb(255, 255, 255);
 }
-.card{
+.tarjeta{
     background: linear-gradient(135deg, rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0));
     border-radius: 20px;
     border:1px solid rgba(255, 255, 255, 0.18);
@@ -70,7 +65,7 @@ header{
     cursor: pointer;    
     transition: 500ms;
 } 
-.card:hover{
+.tarjeta:hover{
     transform: scale(1.02);
 }
 #pulsador{
@@ -93,25 +88,25 @@ header{
     padding: 4px;
 
 }
-.accordion{
+.acordionpreguntas{
     border-radius: 20px;
     background: linear-gradient(135deg, rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0));
 }
-.accordion-button {
+.acordionpreguntasboton-button {
     color: white;
     background: transparent;
     box-shadow: none;
   }
-  .accordion-button:focus{
+  .acordionpreguntasboton:focus{
     box-shadow: none;
     background: none;
     color: white;
   }
-  .accordion-item {
+  .acordionitem1 {
     background: linear-gradient(135deg, rgba(0, 0, 0, 0.1), rgba(255, 255, 255, 0));
     border: none;
   }
-  .accordion-body {
+  .acordioncuerpo {
     background: transparent;
     color: rgb(255, 255, 255);
   }
