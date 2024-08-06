@@ -1,24 +1,68 @@
 @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Bona+Nova+SC:wght@700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Hammersmith+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap');
 
-/*
- .bebas-neue-regular {
-
-    font-family: "Bebas Neue", sans-serif;
-
-    font-weight: 400;
-
-    font-style: normal;
-git add
-  }  
-*/
 .fuenteLogo {
   font-family: "Bebas Neue", sans-serif;
   font-weight: 400;
   font-size: 45px;
   
 }
+.barra {
+    background-image: linear-gradient(90deg,#000000,#0c051d,#1a0a3d, #280f5efa); 
+}
+
+
+body{
+  background-image: linear-gradient(90deg,#000000,#270e5e,#411a94, #572ab9);
+}
+
+ 
+main {
+  margin-top: 188px;
+}
+
+
+
+
+.lista {
+    list-style: none;
+    padding: 0;
+  }
+
+  .boton{
+  font-family: "Hammersmith One", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  text-align:center;
+  width: auto;
+  height: auto;
+  color: #000000;
+  background-color: #b492f8;
+  border-radius: 15%;
+    border: none;
+ 
+  }
+  
+  .boton:hover {
+  transform: scale (2.5);
+  background-color: aliceblue;
+  color: #a21dfb;
+  
+  }
+  .portada{
+    width: 100%;
+    height: 25%;
+  }
+  .cartel{
+    background: linear-gradient(135deg, rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0));
+    border-radius: 20px;
+    border:1px solid rgba(255, 255, 255, 0.18);
+    box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37);
+    cursor: pointer;    
+    transition: 500ms;
+  }  
+=======
 
 /*
 .bona-nova-sc-bold {
@@ -38,17 +82,17 @@ git add
   width: 550px;
 }
 }
+.fuenteparf {
+  font-family: "Lato", sans-serif;
 
-body{
-  background-image: linear-gradient(90deg,#000000,#270e5e,#411a94, #572ab9);
-}
-/*.hammersmith-one-regular {
-  font-family: "Hammersmith One", sans-serif;
-  font-weight: 400;
-  font-style: normal;*/
+  font-weight: 300;
+  font-style: normal;
 
 
+  font-size: 18px;
 
+  font-weight: bold 
+ }
 
 .lista {
     list-style: none;
@@ -70,11 +114,9 @@ body{
   border: none;
  
   }
-  
   .boton:hover {
   transform: scale (2.5);
   background-color: aliceblue;
   color: #a21dfb;
   
   }
-
