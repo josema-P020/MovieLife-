@@ -2,51 +2,19 @@
 @import url('https://fonts.googleapis.com/css2?family=Bona+Nova+SC:wght@700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Hammersmith+One&display=swap');
 
-/*
- .bebas-neue-regular {
-
-    font-family: "Bebas Neue", sans-serif;
-
-    font-weight: 400;
-
-    font-style: normal;
-git add
-  }  
-*/
 .fuenteLogo {
   font-family: "Bebas Neue", sans-serif;
   font-weight: 400;
   font-size: 45px;
-  
-}
-
-/*
-.bona-nova-sc-bold {
-  font-family: "Bona Nova SC", serif;
-  font-weight: 700;
-  font-style: normal;
-}*/
-.barra {
-    background-image: linear-gradient(90deg,#000000,#0c051d,#1a0a3d, #280f5efa); 
-}
-@media screen and (min-width:1618px){
- .ordenar{
-  display: flex;
-  justify-content: space-around;
- }
- .buscador {
-  width: 550px;
-}
 }
 
 body{
   background-image: linear-gradient(90deg,#000000,#270e5e,#411a94, #572ab9);
 }
-/*.hammersmith-one-regular {
-  font-family: "Hammersmith One", sans-serif;
-  font-weight: 400;
-  font-style: normal;*/
 
+.barra {
+ background-image: linear-gradient(90deg,#000000,#0c051d,#1a0a3d, #280f5efa); 
+}
 
 
 
@@ -65,10 +33,7 @@ body{
   color: #000000;
   background-color: #b492f8;
   border-radius: 5%;
-  /* font-size: 25px; */
-  
   border: none;
- 
   }
   
   .boton:hover {
@@ -78,3 +43,12 @@ body{
   
   }
 
+@media screen and (min-width:1618px){
+ .ordenar{
+  display: flex;
+  justify-content: space-around;
+ }
+ .buscador {
+  width: 550px;
+}
+}
