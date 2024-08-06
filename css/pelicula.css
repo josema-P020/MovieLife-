@@ -36,7 +36,7 @@ p
 }
 
 
-.btn
+.boton
 {   
     text-align: center;
     width: 55px;
@@ -49,7 +49,7 @@ p
     border: none;
 }
 
-.btn:hover
+.boton:hover
 {
     transform: scale (2.5);
     background-color: aliceblue;
@@ -58,7 +58,7 @@ p
 }
 
 
-.btn2
+.boton2
 {   
     text-align: center;
     width: 55px;
