@@ -1,0 +1,153 @@
+
+
+body
+{
+    background-image: linear-gradient(90deg,#000000,#270e5e,#411a94, #572ab9);
+}
+
+h3,h2
+{
+    font-family: "Bebas Neue", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    font-size: 50px;
+}
+
+h4
+{
+    font-family: "Bebas Neue", sans-serif;
+    font-weight: 600;
+    font-style:italic;
+    font-size: 30px;
+    color: #b492f8; 
+    
+
+}
+
+p
+{
+    font-family: "Lato", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+}
+
+.boton
+{ 
+    text-align: center; 
+    width: 35px; 
+    height: 35px; 
+    color: #000000; 
+    background-color: #b492f8; 
+    border-radius: 50%; 
+    font-size: 15px; 
+    padding: 5px; 
+    border: none; 
+}
+
+.boton:hover
+{ 
+    transform: scale (2.5); 
+    background-color: aliceblue; 
+    color: #a21dfb;
+
+}
+
+.boton2 
+{   
+    text-align: center;
+    width: 55px;
+    height: 55px;
+    color: #f7f6f6;
+    font-size: 25px;
+}
+
+
+
+.mayor
+{
+    background-color: #131313;
+    
+    border-radius: 5px;
+    padding: 3px;
+    text-align: center;
+}
+
+.episodios
+{
+
+    width: 400px;
+    height: 475px;
+    margin-top: 50px; 
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+
+
+.episodios:hover {
+    transform: scale(1.1);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    border: #f7f6f6 solid 1px;
+    border-radius: 20px;
+   
+}
+
+
+@media (max-width: 500px )
+{
+    .episodios:hover {
+        transform: scale(1.0);
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+        border: #f7f6f6 solid 1px;
+        border-radius: 20px;
+       
+    } 
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap');
+ .lato-light {
+    font-family: "Lato", sans-serif;
+  font-weight: 300;
+  font-style: normal;
+  }
+
+
+
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+ .bebas-neue-regular {
+    font-family: "Bebas Neue", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  } 
+ 
+
+
+
+@import url('https://fonts.googleapis.com/css2?family=Hammersmith+One&display=swap');
+
+.hammersmith-one-regular { 
+ font-family: "Hammersmith One", sans-serif; 
+ font-weight: 400; 
+ font-style: normal; 
+}
