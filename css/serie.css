@@ -31,30 +31,28 @@ p
     font-style: normal;
 }
 
-.btn
+.boton
 { 
-text-align: center; 
-width: 35px; 
-height: 35px; 
-color: #000000; 
-background-color: #b492f8; 
-border-radius: 50%; 
-font-size: 15px; 
-padding: 5px; 
-border: none; 
+    text-align: center; 
+    width: 35px; 
+    height: 35px; 
+    color: #000000; 
+    background-color: #b492f8; 
+    border-radius: 50%; 
+    font-size: 15px; 
+    padding: 5px; 
+    border: none; 
 }
 
-.btn:hover
+.boton:hover
 { 
-transform: scale (2.5); 
-background-color: aliceblue; 
-color: #a21dfb;
-
-
+    transform: scale (2.5); 
+    background-color: aliceblue; 
+    color: #a21dfb;
 
 }
 
-.btn2
+.boton2 
 {   
     text-align: center;
     width: 55px;
@@ -63,16 +61,7 @@ color: #a21dfb;
     font-size: 25px;
 }
 
-.btn3
-{
-    margin: 5px;
-    width: 140px;
-    height: 40px;
-    border-radius: 15px;
-    background-color: #ffffff;
-    border: #7735e1;
-    color: #780dc0;
-}
+
 
 .mayor
 {
@@ -88,8 +77,7 @@ color: #a21dfb;
 
     width: 400px;
     height: 475px;
-    margin-top: 50px;
-    
+    margin-top: 50px; 
     transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 
@@ -101,6 +89,18 @@ color: #a21dfb;
     border: #f7f6f6 solid 1px;
     border-radius: 20px;
    
+}
+
+
+@media (max-width: 500px )
+{
+    .episodios:hover {
+        transform: scale(1.0);
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+        border: #f7f6f6 solid 1px;
+        border-radius: 20px;
+       
+    } 
 }
 
 
