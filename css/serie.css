@@ -31,7 +31,7 @@ p
     font-style: normal;
 }
 
-.boton
+.botones
 { 
     text-align: center; 
     width: 35px; 
@@ -44,7 +44,7 @@ p
     border: none; 
 }
 
-.boton:hover
+.botones:hover
 { 
     transform: scale (2.5); 
     background-color: aliceblue; 
@@ -52,7 +52,7 @@ p
 
 }
 
-.boton2 
+.botones2 
 {   
     text-align: center;
     width: 55px;
