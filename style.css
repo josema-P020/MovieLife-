@@ -27,23 +27,20 @@ main {
   }
 
   .boton{
-  font-family: "Hammersmith One", sans-serif;
-  font-weight: 400;
-  font-style: normal;
-  text-align:center;
-  width: auto;
-  height: auto;
-  color: #000000;
-  background-color: #b492f8;
-  border-radius: 15%;
-    border: none;
- 
-  }
-  .boton:hover {
-  transform: scale (2.5);
-  background-color: aliceblue;
-  color: #a21dfb;
-  }
+    margin: 5px;
+    width: 140px;
+    height: 40px;
+    border-radius: 15px;
+    background-color: #ffffff;
+    border: #7735e1;
+    color: #780dc0;
+}
+.boton:hover{
+    transition: 0.3s ease;
+    color: #ffffff;
+    background-color: #411a94;
+    border: #ffffff solid 2px;
+}
   
   .portada{
     width: 100%;
