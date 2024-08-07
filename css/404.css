@@ -1,0 +1,37 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+body {
+    background-image: linear-gradient(90deg,#000000,#270e5e,#411a94, #572ab9);
+  
+}
+
+
+  .botoninicio {
+    background-color: #ffffff;
+    border: #7735e1;
+
+    color: #780dc0;
+}
+
+.botoninicio:hover{
+
+    transition: 0.3s ease;
+
+    color: #ffffff;
+
+    background-color: #411a94;
+
+    border: #ffffff solid 2px;
+
+}
+
+
+h1, h4 {
+
+    font-family: "Bebas Neue", sans-serif;
+
+    font-weight: 400;
+
+    font-style: normal;
+
+  }
