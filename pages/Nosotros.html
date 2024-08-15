@@ -9,14 +9,89 @@
       integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
       crossorigin="anonymous"
     />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
     <link rel="stylesheet" href="/css/Nosotros.css" />
+    <link rel="stylesheet" href="/style.css" />
 
     <title>MovieLife+</title>
-    <link rel="icon" href="/Assets/file.png" type="image/png">
   </head>
   <body>
     <header>
-      <nav></nav>
+      <nav class="navbar navbar-expand-lg barra fixed-top">
+        <div class="container-fluid">
+          <a class="navbar-brand ms-xl-5" href="#">
+            <div><img src="/assets/file.png" class="mx-5" style="width: 90px;" alt="">
+              <h3 class="text-light fuenteLogo">m o v i e l i f e +</h3>
+            </div>
+          </a>
+          <button class="navbar-toggler colapsable btn:hover" type="button" data-bs-toggle="collapse"
+            data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+            aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+  
+          <div class="collapse navbar-collapse ordenar" id="navbarSupportedContent">
+            <ul class="navbar-nav ms-xl-auto mb-lg-0 w-auto p-3 fs-4">
+              <li class="nav-item">
+                <a class="nav-link active text-light me-3" aria-current="page" href="#">Inicio</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle text-light me-3" href="#" role="button" data-bs-toggle="dropdown"
+                  aria-expanded="false">
+                  Peliculas
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item text-light" href="#"></a></li>
+                  <li><a class="dropdown-item" href="./pages/404.html">Comedia</a></li>
+                  <li><a class="dropdown-item" href="./pages/404.html">Ciencia Ficción</a></li>
+                  <li><a class="dropdown-item" href="./pages/404.html">Anime</a></li>
+                  <li><a class="dropdown-item" href="./pages/404.html">Terror</a></li>
+                  <li><a class="dropdown-item" href="./pages/404.html">Drama</a></li>
+                  <li><a class="dropdown-item" href="./pages/404.html">Romances</a></li>
+                  <li><a class="dropdown-item" href="./pages/404.html">Acción</a></li>
+                  <li>
+                    <hr class="dropdown-divider">
+                  </li>
+                  <li><a class="dropdown-item" href="./pages/404.html">Todos</a></li>
+                </ul>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle text-light me-3" href="#" role="button" data-bs-toggle="dropdown"
+                  aria-expanded="false">
+                  Series
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="#"></a></li>
+                  <li><a class="dropdown-item" href="./pages/404.html">Comedia</a></li>
+                  <li><a class="dropdown-item" href="./pages/404.html">Ciencia Ficción</a></li>
+                  <li><a class="dropdown-item" href="./pages/404.html">Anime</a></li>
+                  <li><a class="dropdown-item" href="./pages/404.html">Terror</a></li>
+                  <li><a class="dropdown-item" href="./pages/404.html">Drama</a></li>
+                  <li><a class="dropdown-item" href="./pages/404.html">Romances</a></li>
+                  <li><a class="dropdown-item" href="./pages/404.html">Acción</a></li>
+                  <li>
+                    <hr class="dropdown-divider">
+                  </li>
+                  <li><a class="dropdown-item" href="/pages/404.html">Todos</a></li>
+                </ul>
+              </li>
+  
+  
+            </ul>
+            <form class="d-flex" role="search">
+              <input class="form-control me-2 buscador" type="search" placeholder="buscar" aria-label="Search">
+              <a href="/pages/404.html" class="btn btn-outline-primary boton btn:hover">Buscar</a>
+            </form>
+             <ul class="d-flex justify-content-end">
+              <a href="/pages/registro.html" class="btn boton  mt-3  " type="button"> <i
+                  class="bi bi-person-circle fa-xl"></i> Register</a>
+            </ul>
+          </div>
+        </div>
+  
+  
+  
+      </nav>
     </header>
     <main>
       <h1 style="color: blanchedalmond; text-align: center; margin-top: 2%">
@@ -32,88 +107,124 @@
           padding-bottom: 2%;
         "
       >
-      Conoce MovieLife+ un servicio de streaming que ofrece una gran variedad de películas, series y documentales disponibles en tu dispositivo favorito.
-      Todo lo que quieras ver, sin límites ni comerciales, a un costo muy accesible.
-      Desde originales exclusivos hasta los clásicos de siempre, MovieLife+ te permite disfrutar con la mejor calidad.
-      Somos un equipo comprometido con poner a tu alcance el mejor contenido de streaming del mercado.
+        Conoce MovieLife+ un servicio de streaming que ofrece una gran variedad
+        de películas, series y documentales disponibles en tu dispositivo
+        favorito. Todo lo que quieras ver, sin límites ni comerciales, a un
+        costo muy accesible. Desde originales exclusivos hasta los clásicos de
+        siempre, MovieLife+ te permite disfrutar con la mejor calidad. Somos un
+        equipo comprometido con poner a tu alcance el mejor contenido de
+        streaming del mercado.
       </p>
       <div class="container d-flex justify-content-center align-items-center">
-        <div class="row integrantes d-flex justify-content-center align-items-center">
-          <div
-            class="tarjeta col-12"
-            style="width: 18rem"
-          >
+        <div
+          class="row integrantes d-flex justify-content-center align-items-center"
+        >
+          <div class="tarjeta col-12" style="width: 18rem">
             <img
               src="/assets/img/20240731_164313.jpg"
               class="card-img-top img-fluid"
               alt="Jose Maria"
-              style="border-radius: 8%; height:350px ;"
+              style="border-radius: 8%"
             />
             <div class="card-body">
-              <h3 style="text-align: center; color: blanchedalmond; margin-top: 5px;">
+              <h3
+                style="
+                  text-align: center;
+                  color: blanchedalmond;
+                  margin-top: 5px;
+                "
+              >
                 Jose Maria Perez
               </h3>
-              <p class="card-text" style="color: blanchedalmond; text-align: center;">
-                José María Pérez tengo 30 años, actualmente estoy estudiando para programador, Mis pasa tiempos son hacer actividades al aire libre.
-                Soy fans de los animales y me gusta mucho la pizza.
+              <p
+                class="card-text"
+                style="color: blanchedalmond; text-align: center"
+              >
+                30 años, actualmente estoy estudiando
+                para programador. Mis pasatiempos son hacer actividades al aire
+                libre y reunirme con amigos. Soy fan de los animales y me gusta mucho la pizza.
               </p>
             </div>
           </div>
-          <div
-            class="tarjeta col-12"
-            style="width: 18rem"
-          >
+          <div class="tarjeta col-12" style="width: 18rem">
             <img
               src="/assets/img/20240731_162612.jpg"
               class="card-img-top img-fluid"
               alt="Enzo"
-              style="border-radius: 8% ; height:350px ; "
+              style="border-radius: 8%"
             />
             <div class="card-body">
-              <h3 style="text-align: center; color: blanchedalmond; margin-top: 5px;">
+              <h3
+                style="
+                  text-align: center;
+                  color: blanchedalmond;
+                  margin-top: 5px;
+                "
+              >
                 Enzo Perez
               </h3>
-              <p class="card-text" style="color: blanchedalmond; text-align: center;">
-                19 años, estudiante  de programación en la UTN, me gustan los videojuegos, entrenar y me fascina todo sobre la tecnología.
-                Tambien me gusta el asado los domingos y compartir con amigos 
+              <p
+                class="card-text"
+                style="color: blanchedalmond; text-align: center"
+              >
+                19 años, estudiante de programación en la UTN, me gustan los
+                videojuegos, entrenar y me fascina todo sobre la tecnología.
+                Tambien me gusta el asado los domingos y compartir con amigos.
               </p>
             </div>
           </div>
-          <div
-            class="tarjeta col-12"
-            style="width: 18rem"
-          >
+          <div class="tarjeta col-12" style="width: 18rem">
             <img
               src="/assets/img/IMG-20240731-WA0121.jpg"
               class="card-img-top img-fluid"
               alt="Franco"
-              style="border-radius: 8% ; height:360px ; "
+              style="border-radius: 8%"
             />
             <div class="card-body">
-              <h3 style="text-align: center; color: blanchedalmond; margin-top: 5px;">
+              <h3
+                style="
+                  text-align: center;
+                  color: blanchedalmond;
+                  margin-top: 5px;
+                "
+              >
                 Franco Sosa
               </h3>
-              <p class="card-text" style="color: blanchedalmond; text-align: center;">
-              23 años. Soy estudiante de programación en la UTN y ya me estoy por recibir a fin de año  . Hincha fanático de River, me gusta ir al gimnasio todos los días y compartir momentos con mis amigos.
+              <p
+                class="card-text"
+                style="color: blanchedalmond; text-align: center"
+              >
+                23 años. Soy estudiante de programación en la UTN y ya me estoy
+                por recibir a fin de año . Hincha fanático de River, me gusta ir
+                al gimnasio todos los días y compartir momentos con mis amigos.
               </p>
             </div>
           </div>
-          <div
-            class="tarjeta col-12"
-            style="width: 18rem"
-          >
+          <div class="tarjeta col-12" style="width: 18rem">
             <img
               src="/assets/img/20240721_123440.jpg"
               class="card-img-top img-fluid"
               alt="Natividad"
-              style="border-radius: 8% ; height:350px ;"
+              style="border-radius: 8%"
             />
             <div class="card-body">
-              <h3 style="text-align: center; color: blanchedalmond; margin-top: 5px;">
+              <h3
+                style="
+                  text-align: center;
+                  color: blanchedalmond;
+                  margin-top: 5px;
+                "
+              >
                 Natividad Rodriguez
               </h3>
-              <p class="card-text" style="color: blanchedalmond; text-align: center;">
-                33 años. Soy Tecnica de Laboratorio, trabajo en una clinica. Me gustan los viajes, el trekking, la naturaleza, la fotografia, el café y un buen vino. tambien me gustan las Reuniones con amigos 
+              <p
+                class="card-text"
+                style="color: blanchedalmond; text-align: center"
+              >
+                33 años. Soy Tecnica de Laboratorio, trabajo en una clinica. Me
+                gustan los viajes, el trekking, la naturaleza, las actividades
+                al aire libre, la fotografia, ver documentales, el café y un
+                buen vino.
               </p>
             </div>
           </div>
@@ -122,8 +233,9 @@
 
       <div class="container">
         <div class="d-grid gap-2 col-6 mx-auto mb-4 mt-5">
-          <a href="/index.html" class="btn botoninicio d-flex align-items-center justify-content-center">Volver a inicio</a>
-           
+          <button class="btn botoninicio" onclick="href=index.html">
+            Volver a inicio
+          </button>
         </div>
       </div>
     </main>

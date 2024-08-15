@@ -6,6 +6,8 @@ body {
 }
 
 
+
+
   .integrantes:hover .tarjeta {
     filter: blur(5px);
     transform: scale(.8);
@@ -18,13 +20,10 @@ body {
 }
 
   .botoninicio {
-    width: 100%;
-    height: 70px;
     background-color: #ffffff;
     border: #7735e1;
 
     color: #780dc0;
-    font-size: 25px;
 }
 
 .botoninicio:hover{
@@ -64,5 +63,19 @@ h1, h3 {
 
   }
 
+@media (min-width: 1000px) {
+  .integrantes {
+      width: 90%;
+  }
+  
+
+
+}
+
+@media (min-width: 300px) {
+  .tarjeta {
+    margin-bottom: 50px;
+  }
+}
 
 
