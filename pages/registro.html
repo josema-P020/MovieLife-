@@ -117,7 +117,7 @@
       </nav>
     </header>
     <main>
-      <section class="contenedor">
+      <section class="contenedorinfo">
         <div class="row text-center d-flex m-5">
           <div class="col-md-12 col-sm-12 p-0">
             <img
@@ -191,14 +191,14 @@
             <ul class="text-white">
               <li>Acceso a la colección estándar de películas y series.</li>
               <li>Excelente selección de títulos para horas de disfrute.</li>
-              <li>Ideal para un plan sencillo y sólido.</li>
+              <li>Ideal para un plan sencillo sólido con amigos y familiares.</li>
             </ul>
-            <h4 class="text-white text-center">
+            <h4 class="text-white text-center mt-3">
               <i class="bi bi-currency-dollar">ARS 2000/MES</i>
             </h4>
             
-            <div class="check d-flex align-items-end justify-content-center ">
-              <input type="radio" class="radio"  >
+            <div class="check d-flex align-items-end justify-content-center">
+              <input type="radio" class="radio">
             </div>
           </div>
         </div>
@@ -219,9 +219,7 @@
               />
             </div>
             <div class="mb-3 col-md-12">
-              <label for="apellido" class="form-label text-white"
-                >Apellido</label
-              >
+              <label for="apellido" class="form-label text-white">Apellido</label>
               <input
                 type="text"
                 class="form-control"
@@ -243,9 +241,7 @@
               />
             </div>
             <div class="mb-3">
-              <label for="password" class="form-label text-white"
-                >Contraseña</label
-              >
+              <label for="password" class="form-label text-white">Contraseña</label>
               <input
                 type="password"
                 class="form-control"
@@ -256,6 +252,29 @@
                 maxlength="20"
               />
             </div>
+            <div class="mb-3">
+              <label for="confirmPassword" class="form-label text-white">Confirmar Contraseña</label>
+              <input
+                type="password"
+                class="form-control"
+                id="confirmPassword"
+                placeholder="Confirme su contraseña"
+                required
+                minlength="4"
+                maxlength="20"
+              />
+            </div>
+            <div class="mb-3 form-check">
+              <input
+                type="checkbox"
+                class="form-check-input"
+                id="acceptTerms"
+                required
+              />
+              <label class="form-check-label text-white" for="acceptTerms" required>
+                Acepto los <a href="/pages/404.html" class="text-decoration-underline text-white">términos y condiciones</a>
+              </label>
+            </div>
             <div class="d-flex justify-content-center">
               <button class="boton btn-nav" type="submit" class="m-1 btn">
                 <a href="/pages/404.html" class="text-decoration-none">Crear cuenta</a>
@@ -264,6 +283,7 @@
             </div>
           </div>
         </form>
+        
       </section>
     </main>
     <footer class="container-fluid bg-black w-100">

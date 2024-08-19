@@ -5,6 +5,9 @@ body {
   
 }
 
+main {
+  margin-top: 180px;
+}
 
   .botoninicio {
     background-color: #ffffff;
@@ -33,5 +36,12 @@ h1, h4 {
     font-weight: 400;
 
     font-style: normal;
+
+  }
+
+  @media (max-width: 950px) {
+    main {
+      margin-top: 185px;
+    }
 
   }

@@ -16,9 +16,13 @@ body{
   background-image: linear-gradient(90deg,#000000,#270e5e,#411a94, #572ab9);
 }
 
+.colapsable {
+  background-color: #6f5d97;
+}
+
  
-main {
-  margin-top: 255px;
+.margennav {
+  margin-top: 188px;
 }
 
 .lista {
@@ -51,8 +55,6 @@ main {
     border-radius: 20px;
     border:1px solid rgba(255, 255, 255, 0.18);
     box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37);
-    cursor: pointer;    
-    transition: 500ms;
   }  
 @media screen and (min-width:1618px){
  .ordenar{
@@ -74,3 +76,13 @@ main {
   font-weight: bold
 }
 
+.titulos {
+  font-family: "Lato", sans-serif;
+  font-weight: 300;
+
+  font-style: normal;
+
+
+
+  font-weight: bold
+}
